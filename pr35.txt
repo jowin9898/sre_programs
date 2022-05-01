@@ -1,0 +1,4 @@
+n=input("enter value")
+m=input("enter value to be divided ")
+print("THE REMAINDER = : ",n%m)
+print("THE QUOTIENT = : ",n//m)

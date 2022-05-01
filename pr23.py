@@ -1,0 +1,11 @@
+english = int(input(" enter english Marks: "))
+maths = int(input(" enter Maths score: "))
+computer = int(input(" enter Computer Marks: "))
+physics = int(input(" enter physics Marks: "))
+chemistry = int(input(" enter chemistry Marks: "))
+t = english + maths + computer + physics + chemistry
+avg = t / 5
+prt = (t / 500) * 100
+print("Total Marks = " ,t)
+print("Average Marks = " ,avg)
+print("Mark percentage = " , prt)
